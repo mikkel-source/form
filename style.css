@@ -1,0 +1,41 @@
+#Firstname::placeholder {
+    color: black;
+}
+#Lastname::placeholder {
+    color: black;
+}
+#address::placeholder {
+    color: black;
+}
+#username::placeholder {
+    color: black;
+}
+#password::placeholder {
+    color: black;
+} 
+#email::placeholder {
+    color: black;
+}
+
+input {
+    display: block;
+    border: 3px solid black;
+}
+.submitbutton {
+    margin-top: 2em;
+    border: 3px solid black
+}
+.fieldset {
+    margin-top: 2em;
+    border: 2px solid black;
+}
+
+.text {
+    /* border: 2px solid red; */
+    font-size: 1em;
+    text-align: left;
+}
+body {
+    background-color: orange;
+}
+

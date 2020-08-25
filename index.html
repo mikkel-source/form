@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formvalidater</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="text">
+        <p>
+            I nedenstående felter er der plads til at du kan skrive dine oplysninger. Disse bruges udelukkende for at
+            validere at du er dansk statsborger og samtidig til at du kan oprette dig som bruger.
+
+        </p>
+    </div>
+    <form class="form" action="">
+        <fieldset class="fieldset">
+            <legend>Dine informationer</legend>
+            <label for="Firstname"> Firstname
+                <input type="text" name="Firsname" id="Firstname" placeholder="eks:Joakim">
+            </label>
+            <label for="Lastname"> Lastname
+                <input type="text" name="Lastname" id="Lastname" placeholder="eks:Jensen" value="">
+            </label>
+            <label for="address"> Address
+                <input type="text" name="address" id="address" value="" placeholder="eks:roskildevej 42">
+            </label>
+            <label for="username"> Username
+                <input type="password" value="" name="password" id="username" placeholder="eks:rocketmann">
+            </label>
+            <label for="password"> Password
+                <input type="password" id="password" value="" placeholder="et personlig password">
+            </label>
+            <label for="email"> Email
+                <input type="email" id="email" name="email" value="" placeholder="eks:343423@gmail.com">
+            </label>
+            <button type="submit" class="submitbutton">submit</button>
+        </fieldset>
+    </form>
+    <script src="./index.js" defer></script>
+
+</body>
+
+</html>
